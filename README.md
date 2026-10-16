@@ -171,16 +171,6 @@ xcodebuild -project PadBrowser.xcodeproj \
 
 > **提示**：工程采用了 Xcode 同步根组（Synchronized Root Group）规范，在 `PadBrowser/` 目录内新增或移动 `.swift` 文件会自动纳入编译，无需手动修改工程文件。
 
----
-
-## 🗺️ 后续路线图（Roadmap）
-
-- [ ] **增强阅读模式（Reader Mode）**：注入式排版重构，离线提取纯净正文与多主题支持。
-- [ ] **PencilKit 手写批注**：支持直接使用 Apple Pencil 在网页表面进行批注与笔迹涂鸦。
-- [ ] **整页导出套件**：支持整页长截图（Full-page Screenshot）与无损长 PDF 文档导出。
-- [ ] **媒体视图（Media Inspector）**：一键提取当前页面所有图片与流媒体的高清瀑布流画廊。
-- [ ] **Web Extension 支持**：基于 iPadOS 18.4+ 的 `WKWebExtensionController` 接入标准浏览器插件生态。
-- [ ] **iCloud 云同步**：跨设备同步书签、空间、固定站点与会话状态。
 
 ---
 
