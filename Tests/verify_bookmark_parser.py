@@ -1,7 +1,6 @@
-"""PadBrowser BookmarkStore.importNetscapeHTML 的算法移植，用于验证状态机逻辑。
+"""PadBrowser Bookmark HTML Parser 离线状态机验证脚本。
 
-这不是产品代码，只是把 Swift 版本的扫描逻辑逐行翻译过来跑样本，
-因为本机沙箱禁止 rename() 导致 Swift 无法编译/类型检查。
+用于独立测试与验证 Netscape Bookmark HTML 导入算法的层级栈与实体转义边界用例。
 """
 import re
 import sys
